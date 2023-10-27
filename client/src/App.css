@@ -1,0 +1,26 @@
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .fluid-gradient {
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    background: linear-gradient(45deg, #44c37f, #327dcd, #5551b6);
+    background-size: 400% 400%;
+  }
+
+  .fluid-gradient-admin {
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    background: linear-gradient(45deg, #1a4b31, #1a4069, #262551);
+    background-size: 400% 400%;
+  }
+  
